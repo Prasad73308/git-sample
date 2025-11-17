@@ -1,0 +1,22 @@
+
+git work flow
+--------------
+working directory---> staging area--->locoal repo--->remote repo
+
+
+git commands
+---------------
+git init-->git initializing in our project
+git status--> checking files are in working directory or staging area or local repo
+git branch-->checking branch
+git add . or git add file1 file2.... --> moviing working directory to staging area
+git commit -m "commit"--> moving files from staging area to local repo
+git remote add origin "http/"-->mappind git to github
+git push -u origin master--> push files to remote repo
+git chekout -b "feature-1" --> creating a branch and switched to that
+git checkout master --> switching to branches
+git log--> checking commit ids
+git log --oneline --> only getting the 6 digit commit id
+
+fork-->get acces to our repo
+git colne --> extracting projects from repo https
